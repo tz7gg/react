@@ -1,0 +1,17 @@
+.aside {  
+    grid-area: aside;
+    background-color: rgb(243, 243, 243);
+  }
+  
+  .aside a {
+    padding-left: 18px;
+    text-decoration: none;
+    color:rgb(22, 9, 9);
+    font-size: 18px;
+  }
+  
+  .aside > div > a{
+    display: block;
+    padding-top: 6px;
+    padding-left: 18px;
+  }
