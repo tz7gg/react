@@ -2,13 +2,13 @@
     grid-area: main;  
   }
   
-  .main-header {
+  .header {
     background-image: url("http://dgdesign.ru/uploads/posts/2019-02/1549455082_shapka-sayta-vesna-1151132.jpg");
     background-size: cover;
     height: 200px;
   }
   
-  .main-info {
+  .info {
     display: grid;
     margin-top: 7px;
     grid-template-rows: 1fr;
@@ -18,18 +18,18 @@
   
   }
   
-  .main-info-logo img {
+  .avatar img {
     grid-area: logo;
     height: 150px;
   }
   
-  .main-info-name {
+  .name {
     grid-area: name;
     padding-left: 14px;
     font-size: 2em;
   
   }
   
-  .main-info-name p {
+  .name p {
     margin: 4px;
   }
