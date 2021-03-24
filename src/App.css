@@ -1,0 +1,77 @@
+.app-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 12px;
+  grid-template-areas: 
+  "header header" 
+  "aside main";
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(243, 243, 243);
+}
+
+.header img {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  height: 85px;
+}
+
+.aside {  
+  grid-area: aside;
+  background-color: rgb(243, 243, 243);
+}
+
+.aside a {
+  padding-left: 18px;
+  text-decoration: none;
+  color:rgb(22, 9, 9);
+  font-size: 18px;
+}
+
+.aside > div > a{
+  display: block;
+  padding-top: 6px;
+  padding-left: 18px;
+}
+
+.main {  
+  grid-area: main;  
+}
+
+.main-header {
+  background-image: url("http://dgdesign.ru/uploads/posts/2019-02/1549455082_shapka-sayta-vesna-1151132.jpg");
+  background-size: cover;
+  height: 200px;
+}
+
+.main-info {
+  display: grid;
+  margin-top: 7px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 
+  "logo name" 
+
+}
+
+.main-info-logo img {
+  grid-area: logo;
+  height: 150px;
+}
+
+.main-info-name {
+  grid-area: name;
+  padding-left: 14px;
+  font-size: 2em;
+
+}
+
+.main-info-name p {
+  margin: 4px;
+}
